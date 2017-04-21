@@ -14,5 +14,9 @@ codenarc {
     configFile = new File(projectDir, 'config/codenarc/rules.groovy')
     reportFormat = 'html'
 
-    ignoreFailures = true
+    //ignoreFailures = true
+
+    maxPriority1Violations = 0
+    maxPriority2Violations = 5
+    maxPriority3Violations = 9
 }
