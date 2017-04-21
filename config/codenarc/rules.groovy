@@ -11,6 +11,9 @@ ruleset {
         'ClassJavadoc' {
             enabled = false
         }
+        'LineLength' {
+            length = 130
+        }
     }
     ruleset('rulesets/generic.xml')
     ruleset('rulesets/imports.xml')
